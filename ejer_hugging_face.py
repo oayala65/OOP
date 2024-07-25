@@ -16,7 +16,7 @@ def analisis_sentimiento(texto):
 
 while True:
     print('\x1b[1;31m'+ f'\nIntroduzca 2 para salir')
-    texto=input('\x1b[1;32m'+'\nDecime algo:  ')
+    texto=input('\x1b[1;32m'+'\nDecime algo para analizar su sentimiento:  ')
     if texto==str(2):
         print('\nSaliendo del programa...\n')
         break
